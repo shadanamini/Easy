@@ -38,5 +38,4 @@ Although the code creates a new string s by performing the replacements and lowe
 
 Since the additional space used does not grow with the size of the input, it can be considered constant space.
 
-
 */
