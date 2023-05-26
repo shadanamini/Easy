@@ -27,7 +27,9 @@ function binarySearch(nums, target) {
   return -1;
 }
 
-/* Time Complexity
+/* 
+
+Time Complexity
 
 The binary search algorithm divides the search range in half at each step. As a result, the number of elements to search decreases exponentially. 
 
@@ -35,9 +37,7 @@ In the worst case, the algorithm can find the target or determine its absence af
 
 Hence, the time complexity is O(log n).
 
-*/
-
-/* Space Complexity
+Space Complexity
 
 The binarySearch function uses a constant amount of extra space. It only requires a few variables to store the left and right pointers, the middle index, and the potential match value. 
 

@@ -18,7 +18,9 @@ function twoSum(nums, target) {
   }
 }
 
-/* Time Complexity
+/* 
+
+Time Complexity
 
 The above code has a time complexity of O(n) because it iterates over the array of numbers once in a single loop.
 
@@ -30,9 +32,7 @@ and then moves on to the next number.
 
 As the size of the array increases, the number of iterations also increases linearly.
 
-*/
-
-/* Space Complexity
+Space Complexity
 
 Regarding space complexity, the code also has a space complexity of O(n) because it utilizes a Map called
 indices to store the indices of numbers encountered so far.
