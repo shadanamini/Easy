@@ -1,21 +1,15 @@
 function containsDuplicate(numbers) {
+  const numberSet = new Set();
 
-    const numberSet = new Set();
-
-    for (const number of numbers) {
-        
-        if (numberSet.has(number)) {
-            
-            return true;
-
-        }
-
-        numberSet.add(number);
-
+  for (const number of numbers) {
+    if (numberSet.has(number)) {
+      return true;
     }
 
-    return false;
+    numberSet.add(number);
+  }
 
+  return false;
 }
 
 /* Time Complexity
