@@ -1,23 +1,17 @@
 function twoSum(nums, target) {
 
-  // Creating a Map to store the indices of the elements.
   const indices = new Map();
 
-  // Iterating through the number array.
   for (let i = 0; i < nums.length; i++) {
 
-      // Calculating the complement of the current number.
       const complement = target - nums[i];
 
-      // Checking to see if the complement is present in the Map.
       if (indices.has(complement)) {
 
-          // Returning the index of the complement and current number.
           return [indices.get(complement), i];
           
       }
 
-      // Adding the current number with corresponding index to the Map.
       indices.set(nums[i], i);
 
   }
