@@ -1,6 +1,6 @@
 function isPalindrome(s) {
   // Remove non-alphanumeric characters from the string.
-  s = s.replace(/[^a-zA-Z0-9]/g, "");
+  s = s.replace(/[^a-zA-Z0-9]/g, '');
 
   // Convert the string to lowercase.
   s = s.toLowerCase();
