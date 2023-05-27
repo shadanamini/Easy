@@ -10,12 +10,12 @@ function twoSum(nums, target) {
 
     // Check if the complement exists in the indices Map.
     if (indices.has(complement)) {
-      
+
       // Return the indices of the two numbers that add up to the target.
       return [indices.get(complement), i];
     }
 
-    // Store the current number and its index in the indices Map.
+    // Store the current number and corresponding index in the indices Map.
     indices.set(nums[i], i);
   }
 
