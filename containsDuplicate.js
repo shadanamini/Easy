@@ -4,6 +4,7 @@ function containsDuplicate(numbers) {
 
   // Iterating through each number in the array.
   for (const number of numbers) {
+    
     // If the number is already in the Set, there is a duplicate.
     if (numberSet.has(number)) {
       return true; // Found a duplicate, return true.
