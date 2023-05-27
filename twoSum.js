@@ -17,5 +17,3 @@ function twoSum(nums, target) {
     indices.set(nums[i], i);
   }
 }
-
-
