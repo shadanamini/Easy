@@ -27,13 +27,9 @@ function replaceElements(arr) {
 
 /*
 
-Time Complexity
-
 The time complexity of the replaceElements function is O(n), where n is the length of the input array. 
 
 This is because the function iterates through the array once in a loop, performing constant time operations for each element.
-
-Space Complexity
 
 The space complexity of the function is O(1) because it uses a constant amount of extra space. 
 

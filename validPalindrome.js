@@ -22,15 +22,11 @@ function isPalindrome(s) {
 
 /* 
 
-Time Complexity
-
 The time complexity of this implementation is O(n), where n is the length of the input string 's'. 
 
 This is because the code iterates through the string once in the for loop, comparing characters from both ends until the middle is reached. 
 
 The number of iterations is proportional to the length of the string.
-
-Space Complexity
 
 The space complexity of this implementation is O(1), which means it uses constant space. 
 
