@@ -7,7 +7,7 @@ function containsDuplicate(numbers) {
     
     // If the number is already in the Set, there is a duplicate.
     if (numberSet.has(number)) {
-      return true; // Found a duplicate, return true.
+      return true;
     }
 
     // If the number is not in the Set, add it to the Set.
