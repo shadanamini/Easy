@@ -19,19 +19,3 @@ function isPalindrome(s) {
   // If the loop completes without returning false, it is a palindrome.
   return true;
 }
-
-/* 
-
-The time complexity of this implementation is O(n), where n is the length of the input string 's'. 
-
-This is because the code iterates through the string once in the for loop, comparing characters from both ends until the middle is reached. 
-
-The number of iterations is proportional to the length of the string.
-
-The space complexity of this implementation is O(1), which means it uses constant space. 
-
-Although the code creates a new string s by performing the replacements and lowercase conversion, the space required for the new string is proportional to the length of the input string 's'. 
-
-Since the additional space used does not grow with the size of the input, it can be considered constant space.
-
-*/
