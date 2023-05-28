@@ -1,20 +1,20 @@
 function longestCommonPrefix(strings) {
-    // Handle the edge case where the input array is empty.
-    if (strings.length === 0) {
-        return '';
-    }
+    let first = strings[0]; 
 
-    // Iterate through the characters of the first string in the array.
-    for (let i = 0; i < strings[0].length; i++) {
+    // Iterate through each string in the array.
+    for (let string of strings) { 
 
-        // Check if the current character is present in all strings.
-        if (!strings.every((string) => string[i] === strings[0][i])) {
-            // If not present, return the prefix found so far.
-            return strings[0].slice(0, i);
+        // Iterate through each character in the current string, starting from the last character.
+        for (let i = first.length - 1; i >= 0; i--) { 
+
+            // If the character at index (i) is not equal in the current string, update the common prefix.
+            if (first[i] !== string[i]) { 
+                // Remove characters from index (i) onwards from the common prefix.
+                first = first.slice(0, i); 
+            }
         }
-
     }
 
-    // If all characters are the same, return the first string as the common prefix.
-    return strings[0];
+    // Return the final common prefix.
+    return first; 
 }
