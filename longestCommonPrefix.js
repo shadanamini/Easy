@@ -13,7 +13,9 @@ function longestCommonPrefix(strings) {
                 // Remove characters from index (i) onwards from the common prefix.
                 prefix = prefix.slice(0, i); 
             }
+            
         }
+
     }
 
     // Return the final common prefix.

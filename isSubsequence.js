@@ -7,7 +7,6 @@ function isSubsequence(s, t) {
       // Continue until we reach the end of either 's' or 't'.
   
       if (s[sPointer] === t[tPointer]) {
-
         // If the current characters match, move to the next character in 's'.
         sPointer++; 
       }
