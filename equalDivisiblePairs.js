@@ -1,5 +1,5 @@
 function countPairs(numbers, k) {
-    // Initialize variable to keep count of pairs that satisfy the given conditions.
+    // Initialize a variable to keep count of pairs that satisfy the given conditions.
     let pairs = 0;
 
     // Iterate over each element in the array.
@@ -9,7 +9,7 @@ function countPairs(numbers, k) {
             // Check if the current pair of numbers are equal and satisfy the conditions.
             if (numbers[i] === numbers[j] && ((i * j) % k) === 0) {
                 // Increment the count of pairs.
-                pairs = pairs + 1;
+                pairs++;
             }
         }
     }
