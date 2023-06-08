@@ -1,4 +1,3 @@
-function getConcatenation(numbers) {
-  // Concatenate the input array with itself using the concat method.
-  return numbers.concat(numbers);
-}
+var getConcatenation = function(numbers) {
+    return numbers.concat(numbers);
+};
