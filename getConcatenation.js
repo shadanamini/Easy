@@ -1,3 +1,3 @@
-var getConcatenation = function(numbers) {
+var getConcatenation = function (numbers) {
     return numbers.concat(numbers);
 };

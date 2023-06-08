@@ -1,4 +1,4 @@
-var containsDuplicate = function(numbers) {
+var containsDuplicate = function (numbers) {
     const set = new Set();
 
     for (const number of numbers) {
