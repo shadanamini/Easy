@@ -22,4 +22,5 @@ function categorizeBox(length, width, height, mass) {
         // If the box is neither bulky nor heavy, return 'Neither'.
         return 'Neither';
     }
+    
 }
