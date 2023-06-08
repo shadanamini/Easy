@@ -1,4 +1,4 @@
-var replaceElements = function (array) {
+const replaceElements = function (array) {
     let maximum = array[array.length - 1];
 
     array[array.length - 1] = -1;
@@ -11,7 +11,6 @@ var replaceElements = function (array) {
         if (current > maximum) {
             maximum = current;
         }
-
     }
 
     return array;

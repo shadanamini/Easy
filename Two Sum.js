@@ -1,4 +1,4 @@
-var twoSum = function (numbers, target) {
+const twoSum = function (numbers, target) {
     const indices = new Map();
 
     for (let i = 0; i < numbers.length; i++) {
