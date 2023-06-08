@@ -1,13 +1,13 @@
 var numUniqueEmails = function (emails) {
-  const set = new Set();
+    const set = new Set();
 
-  for (let email of emails) {
-    let [local, domain] = email.split('@');
+    for (let email of emails) {
+        let [local, domain] = email.split('@');
 
-    local = local.replace(/(\.)|(\+.*)/g, '');
+        local = local.replace(/(\.)|(\+.*)/g, '');
 
-    set.add(local + '@' + domain);
-  }
+        set.add(local + '@' + domain);
+    }
 
-  return set.size;
+    return set.size;
 };
