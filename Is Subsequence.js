@@ -1,4 +1,4 @@
-var isSubsequence = function (s, t) {
+const isSubsequence = function (s, t) {
     let sPointer = 0;
     let tPointer = 0;
 

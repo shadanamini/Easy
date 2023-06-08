@@ -1,4 +1,4 @@
-var lengthOfLastWord = function (string) {
+const lengthOfLastWord = function (string) {
     const words = string.trim().split(' ');
 
     if (words.length === 0) {
