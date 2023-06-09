@@ -1,6 +1,5 @@
 const longestCommonPrefix = function (strings) {
     let prefix = strings[0];
-
     for (const string of strings) {
         for (let i = prefix.length - 1; i >= 0; i--) {
             if (prefix[i] !== string[i]) {
@@ -8,6 +7,5 @@ const longestCommonPrefix = function (strings) {
             }
         }
     }
-
     return prefix;
 };
