@@ -1,4 +1,4 @@
-const replaceElements = function (array) {
+const replaceElements = (array) => {
     let maximum = array[array.length - 1];
 
     array[array.length - 1] = -1;
