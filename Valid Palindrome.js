@@ -1,4 +1,4 @@
-const isPalindrome = function (s) {
+const isPalindrome = (s) => {
     s = s.replace(/[^A-Za-z0-9]/g, '');
     s = s.toLowerCase();
 
