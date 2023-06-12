@@ -1,4 +1,4 @@
-const isValid = function (string) {
+const isValid = (string) => {
     const map = {'(' : ')', '{' : '}', '[' : ']'};
     const stack = [];
 
