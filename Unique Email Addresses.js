@@ -1,4 +1,4 @@
-const numUniqueEmails = function (emails) {
+const numUniqueEmails = (emails) => {
     const set = new Set();
 
     for (let email of emails) {
