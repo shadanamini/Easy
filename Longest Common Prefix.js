@@ -1,4 +1,4 @@
-const longestCommonPrefix = function (strings) {
+const longestCommonPrefix = (strings) => {
     let prefix = strings[0];
     for (const string of strings) {
         for (let i = prefix.length - 1; i >= 0; i--) {

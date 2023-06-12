@@ -1,4 +1,4 @@
-const generate = function (rows) {
+const generate = (rows) => {
     const triangle = [];
 
     for (let i = 0; i < rows; i++) {
