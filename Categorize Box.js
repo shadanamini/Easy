@@ -1,4 +1,4 @@
-const categorizeBox = function (length, width, height, mass) {
+const categorizeBox = (length, width, height, mass) => {
     const bulky = length >= 10000 || width >= 10000 || height >= 10000 || (length * width * height) >= 1000000000;
     const heavy = mass >= 100;
 

@@ -1,4 +1,4 @@
-const reverseString = function (string) {
+const reverseString = (string) => {
     let start = 0;
     let end = string.length - 1;
 

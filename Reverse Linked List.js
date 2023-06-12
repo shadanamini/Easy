@@ -1,4 +1,4 @@
-const reverseList = function (head) {
+const reverseList = (head) => {
     let [previous, current, next] = [null, head, null];
 
     while (current) {
