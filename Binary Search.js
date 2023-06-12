@@ -1,4 +1,4 @@
-const search = function (nums, target) {
+const search = (nums, target) => {
     let left = 0;
     let right = nums.length - 1;
 
