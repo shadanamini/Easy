@@ -1,9 +1,4 @@
 const lengthOfLastWord = (string) => {
-    const words = string.trim().split(' ');
-    
-    if (words.length === 0) {
-        return 0;
-    }
-
+    let words = string.trim().split(' ');
     return words[words.length - 1].length;
 };
